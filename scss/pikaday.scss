@@ -71,7 +71,7 @@ $pd-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 .pika-lendar {
     float: left;
-    width: 240px;
+    width: 300px;
     margin: 8px;
 }
 
@@ -93,6 +93,7 @@ $pd-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 .pika-label {
     display: inline-block;
     position: relative;
+    top: 6.9px;
     z-index: 9999;
     overflow: hidden;
     margin: 0;
@@ -112,8 +113,8 @@ $pd-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
     outline: none;
     border: 0;
     padding: 0;
-    width: 20px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     text-indent: 20px; // hide text using text-indent trick, using width value (it's enough)
     white-space: nowrap;
     overflow: hidden;
@@ -187,8 +188,8 @@ $pd-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
     padding: 5px;
     color: $pd-day-color;
     font-size: 12px;
-    line-height: 15px;
-    text-align: right;
+    line-height: 25px;
+    text-align: center;
     background: $pd-day-bg;
 
     .is-today & {
